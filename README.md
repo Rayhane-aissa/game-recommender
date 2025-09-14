@@ -1,22 +1,22 @@
-# 🧠 GameBot Brainstorming - AI-Powered Game Discovery Platform
+#  GameBot Brainstorming - AI-Powered Game Discovery Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Gradio](https://img.shields.io/badge/Gradio-4.44.0-orange.svg)](https://gradio.app)
 [![Machine Learning](https://img.shields.io/badge/ML-Sentence%20Transformers-green.svg)](https://huggingface.co/sentence-transformers)
 
 
-## 📖 Project Overview
+## Project Overview
 
 **GameBot Brainstorming** is an innovative AI-powered game recommendation system that helps users discover new gaming experiences through creative brainstorming and intelligent exploration. Built with advanced machine learning techniques, it transforms how users find games by understanding natural language queries and providing personalized, creative recommendations.
 
-### 🎯 Key Features
+### Key Features
 
-- **🧠 Creative Brainstorming Interface**: Interactive design focused on discovery and exploration
-- **🤖 Advanced NLP Understanding**: Processes free-form text to understand user intent, mood, and preferences
-- **🎮 Intelligent Recommendations**: Uses sentence transformers and FAISS for semantic similarity search
-- **💡 Dynamic Suggestions**: Clickable brainstorming prompts to inspire new gaming discoveries
-- **🎨 Beautiful UI**: Modern, animated interface with gradient backgrounds and smooth transitions
-- **📊 Comprehensive Data**: Built on a rich dataset of video game reviews and metadata
+- ** Creative Brainstorming Interface**: Interactive design focused on discovery and exploration
+- ** Advanced NLP Understanding**: Processes free-form text to understand user intent, mood, and preferences
+- ** Intelligent Recommendations**: Uses sentence transformers and FAISS for semantic similarity search
+- ** Dynamic Suggestions**: Clickable brainstorming prompts to inspire new gaming discoveries
+- ** Beautiful UI**: Modern, animated interface with gradient backgrounds and smooth transitions
+- ** Comprehensive Data**: Built on a rich dataset of video game reviews and metadata
 
 ## 🚀 Tech Stack
 
