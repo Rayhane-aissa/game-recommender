@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Gradio](https://img.shields.io/badge/Gradio-4.44.0-orange.svg)](https://gradio.app)
 [![Machine Learning](https://img.shields.io/badge/ML-Sentence%20Transformers-green.svg)](https://huggingface.co/sentence-transformers)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 ## 📖 Project Overview
 
@@ -97,16 +97,6 @@ python working_app.py
 ```
 **Access at:** `http://127.0.0.1:7862`
 
-### **Alternative Apps**
-```bash
-# Interactive version
-python interactive_app.py
-# Access at: http://127.0.0.1:7863
-
-# Basic brainstorming version
-python brainstorming_app.py
-# Access at: http://127.0.0.1:7864
-```
 
 ## 🎮 How to Use
 
@@ -172,7 +162,7 @@ The system can understand complex queries like:
 
 ## 📊 Dataset Information
 
-- **Source**: Kaggle Video Game Reviews Dataset
+- **Source**: Kaggle Video Game Reviews Dataset:[Dataset link](https://www.kaggle.com/datasets/jahnavipaliwal/video-game-reviews-and-ratings?fbclid=IwY2xjawMzafFleHRuA2FlbQIxMABicmlkETE0TnpycmgzcHl4M1hITlJ5AR57RNuEDpgUJ3tYLKKbLl6MzfMYcUFQLT-66g1kQgJQYh4n0Av1rscy-nsSgQ_aem_V7oDGSD1e1BEqKMTVyK6KA)]
 - **Size**: Comprehensive collection of game reviews and metadata
 - **Features**: Game titles, genres, user reviews, age groups, graphics quality, ratings
 - **Processing**: Text preprocessing, feature engineering, embedding generation
@@ -239,10 +229,6 @@ We welcome contributions! Here's how you can help:
 - **Feature Development**: New brainstorming tools, filters, integrations
 - **Documentation**: Better guides, tutorials, examples
 - **Testing**: Unit tests, integration tests, user testing
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Team
 ### Farah Belgheith
