@@ -245,11 +245,10 @@ We welcome contributions! Here's how you can help:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Team
-
-**Project Lead**: [Your Name]
-**ML Engineer**: [Your Name]
-**Frontend Developer**: [Your Name]
-**Data Scientist**: [Your Name]
+### Farah Belgheith
+### Rayhane Aissa
+### Kabil daami
+### Aya Gaha
 
 ## 🙏 Acknowledgments
 
