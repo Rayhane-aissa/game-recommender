@@ -66,16 +66,42 @@ GAME_DATABASE = {
 
 def parse_user_intent(user_input: str) -> str:
     """
-    Parse user input to identify their intent and return appropriate category.
-    This is placeholder logic that can be enhanced or replaced with ML models.
+    Enhanced natural language understanding to identify user intent.
+    Analyzes mood, preferences, and context to provide better recommendations.
     """
     user_input_lower = user_input.lower()
     
-    # Boredom detection - recommend adventure games
-    if any(word in user_input_lower for word in ['bored', 'boring', 'nothing to do', 'uninterested', 'tired of']):
+    # Mood-based recommendations
+    if any(word in user_input_lower for word in ['sad', 'depressed', 'down', 'blue', 'melancholy', 'gloomy', 'feeling low']):
+        return "sad"
+    
+    if any(word in user_input_lower for word in ['stressed', 'anxious', 'overwhelmed', 'tense', 'worried', 'pressure']):
+        return "chill"  # Recommend relaxing games for stress
+    
+    if any(word in user_input_lower for word in ['bored', 'boring', 'nothing to do', 'uninterested', 'tired of', 'stuck']):
         return "adventure"
     
-    # Language learning detection
+    if any(word in user_input_lower for word in ['happy', 'cheerful', 'excited', 'joyful', 'upbeat', 'positive']):
+        return "happy"
+    
+    if any(word in user_input_lower for word in ['chill', 'relaxed', 'calm', 'peaceful', 'zen', 'mellow', 'laid back']):
+        return "chill"
+    
+    # Time-based recommendations
+    if any(word in user_input_lower for word in ['quick', 'fast', 'short', '30 minutes', '15 minutes', 'brief', 'casual']):
+        return "chill"  # Quick games are often casual/chill
+    
+    if any(word in user_input_lower for word in ['long', 'extended', 'hours', 'all day', 'marathon', 'deep dive']):
+        return "adventure"  # Long games are often adventure/RPG
+    
+    # Social preferences
+    if any(word in user_input_lower for word in ['friends', 'multiplayer', 'together', 'co-op', 'social', 'with others']):
+        return "happy"  # Social games are often upbeat
+    
+    if any(word in user_input_lower for word in ['alone', 'solo', 'by myself', 'single player', 'personal']):
+        return "adventure"  # Solo games are often adventure/story-driven
+    
+    # Learning and educational
     if any(phrase in user_input_lower for phrase in [
         'learn spanish', 'learn french', 'learn german', 'learn japanese', 
         'learn language', 'spanish', 'french', 'german', 'japanese',
@@ -83,12 +109,28 @@ def parse_user_intent(user_input: str) -> str:
     ]):
         return "language_learning"
     
-    # Educational/parental detection
     if any(phrase in user_input_lower for phrase in [
         'parent', 'child', 'kid', 'learn math', 'educational', 'school', 
-        'homework', 'study', 'my child', 'for my kid', 'educational game'
+        'homework', 'study', 'my child', 'for my kid', 'educational game',
+        'learn', 'education', 'skill', 'practice', 'improve'
     ]):
         return "educational"
+    
+    # Genre preferences
+    if any(word in user_input_lower for word in ['puzzle', 'brain', 'think', 'logic', 'challenge', 'problem solving']):
+        return "educational"  # Puzzles are educational
+    
+    if any(word in user_input_lower for word in ['action', 'fast', 'intense', 'thrilling', 'exciting', 'adrenaline']):
+        return "adventure"
+    
+    if any(word in user_input_lower for word in ['strategy', 'planning', 'tactical', 'thinking', 'management']):
+        return "educational"
+    
+    if any(word in user_input_lower for word in ['creative', 'build', 'design', 'art', 'craft', 'create']):
+        return "happy"  # Creative games are often uplifting
+    
+    if any(word in user_input_lower for word in ['story', 'narrative', 'plot', 'characters', 'drama', 'cinematic']):
+        return "sad"  # Story games often have emotional depth
     
     # Default to adventure if no specific intent detected
     return "adventure"
