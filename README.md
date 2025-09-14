@@ -18,7 +18,7 @@
 - ** Beautiful UI**: Modern, animated interface with gradient backgrounds and smooth transitions
 - ** Comprehensive Data**: Built on a rich dataset of video game reviews and metadata
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### **Frontend & Interface**
 - **Gradio 4.44.0** - Modern web interface framework
@@ -40,21 +40,21 @@
 - **Python 3.10+** - Core programming language
 - **Jupyter Notebook** - ML model development and experimentation
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nlp_hack/
-├── 📊 game_recommender.ipynb      # Main ML notebook with data processing and model training
-├── 🧠 working_app.py              # Enhanced brainstorming web interface (MAIN APP)
-├── 🔧 recommendation.py           # Core recommendation logic and NLP processing
-├── 📦 notebook_integration.py     # Integration layer between notebook and web app
-├── 🤖 game_recommender.py         # Extracted ML backend module
-├── 📋 requirements.txt            # Python dependencies
-├── 📖 README.md                   # This documentation
-└── 🗂️ venv/                      # Virtual environment
+├── game_recommender.ipynb      # Main ML notebook with data processing and model training
+├── working_app.py              # Enhanced brainstorming web interface (MAIN APP)
+├── recommendation.py           # Core recommendation logic and NLP processing
+├── notebook_integration.py     # Integration layer between notebook and web app
+├── game_recommender.py         # Extracted ML backend module
+├── requirements.txt            # Python dependencies
+├── README.md                   # This documentation
+└── venv/                      # Virtual environment
 ```
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### **Prerequisites**
 - Python 3.10 or higher
@@ -89,7 +89,7 @@ The app will automatically download the required spaCy model on first run:
 python -c "import spacy; spacy.cli.download('en_core_web_sm')"
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### **Main Brainstorming App (Recommended)**
 ```bash
@@ -98,7 +98,7 @@ python working_app.py
 **Access at:** `http://127.0.0.1:7862`
 
 
-## 🎮 How to Use
+## How to Use
 
 ### **1. Creative Discovery**
 - Enter your gaming curiosity in natural language
@@ -113,10 +113,10 @@ python working_app.py
 - Explore different angles: learning, creativity, relaxation, social gaming
 
 ### **4. Get Recommendations**
-- Click "🧠 Brainstorm Ideas" to get personalized game suggestions
+- Click "Brainstorm Ideas" to get personalized game suggestions
 - Each response includes detailed explanations and follow-up prompts
 
-## 🧠 How It Works
+## How It Works
 
 ### **1. Data Processing**
 - Downloads video game review dataset from Kaggle
@@ -138,7 +138,7 @@ python working_app.py
 - Creative prompts to inspire new gaming directions
 - Contextual follow-up questions to deepen exploration
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### **Natural Language Understanding**
 The system can understand complex queries like:
@@ -160,14 +160,14 @@ The system can understand complex queries like:
 - **Visual Feedback**: Hover effects and animations
 - **Progressive Discovery**: Each response builds on previous interactions
 
-## 📊 Dataset Information
+## Dataset Information
 
 - **Source**: Kaggle Video Game Reviews Dataset:[Dataset link](https://www.kaggle.com/datasets/jahnavipaliwal/video-game-reviews-and-ratings?fbclid=IwY2xjawMzafFleHRuA2FlbQIxMABicmlkETE0TnpycmgzcHl4M1hITlJ5AR57RNuEDpgUJ3tYLKKbLl6MzfMYcUFQLT-66g1kQgJQYh4n0Av1rscy-nsSgQ_aem_V7oDGSD1e1BEqKMTVyK6KA)]
 - **Size**: Comprehensive collection of game reviews and metadata
 - **Features**: Game titles, genres, user reviews, age groups, graphics quality, ratings
 - **Processing**: Text preprocessing, feature engineering, embedding generation
 
-## 🔧 Technical Architecture
+## Technical Architecture
 
 ### **Backend Components**
 1. **Data Layer**: `notebook_integration.py` - Data loading and preprocessing
@@ -180,7 +180,7 @@ The system can understand complex queries like:
 2. **Interactive Elements**: Clickable prompts, mood selectors, dynamic suggestions
 3. **Visual Design**: Animated gradients, floating elements, responsive layout
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 ### **Brainstorming-First Approach**
 - Encourages exploration over specific requests
@@ -197,7 +197,7 @@ The system can understand complex queries like:
 - Responsive design for all devices
 - Keyboard navigation support
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### **Planned Features**
 - [ ] **Multi-language Support**: Expand to other languages
@@ -212,7 +212,7 @@ The system can understand complex queries like:
 - [ ] **Advanced ML**: Fine-tuned models for specific gaming genres
 - [ ] **Real-time Updates**: Live data synchronization
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -230,13 +230,13 @@ We welcome contributions! Here's how you can help:
 - **Documentation**: Better guides, tutorials, examples
 - **Testing**: Unit tests, integration tests, user testing
 
-## 👥 Team
+## Team
 ### Farah Belgheith
 ### Rayhane Aissa
 ### Kabil daami
 ### Aya Gaha
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Kaggle Community** for the comprehensive video game dataset
 - **Hugging Face** for the sentence transformer models
@@ -244,7 +244,7 @@ We welcome contributions! Here's how you can help:
 - **spaCy Team** for the powerful NLP library
 - **Open Source Community** for the amazing tools and libraries
 
-## 🎮 Try It Now!
+## Try It Now!
 
 Ready to discover your next favorite game? Start brainstorming with GameBot!
 
@@ -252,7 +252,7 @@ Ready to discover your next favorite game? Start brainstorming with GameBot!
 python working_app.py
 ```
 
-**Happy Gaming! 🎮✨**
+**Happy Gaming! **
 
 ---
 
