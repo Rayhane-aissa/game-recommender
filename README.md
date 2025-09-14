@@ -259,15 +259,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **spaCy Team** for the powerful NLP library
 - **Open Source Community** for the amazing tools and libraries
 
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
-- **Email**: [your-email@example.com]
-- **Documentation**: [Project Wiki](https://github.com/your-repo/wiki)
-
----
-
 ## 🎮 Try It Now!
 
 Ready to discover your next favorite game? Start brainstorming with GameBot!
