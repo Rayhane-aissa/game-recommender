@@ -95,8 +95,6 @@ python -c "import spacy; spacy.cli.download('en_core_web_sm')"
 ```bash
 python working_app.py
 ```
-**Access at:** `http://127.0.0.1:7862`
-
 
 ## How to Use
 
